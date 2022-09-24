@@ -1,0 +1,22 @@
+.b-header__nav {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+
+    .b-header__img {
+        width: 180px;
+        height: 35px;
+    }
+
+    .b-icon {
+        font-size: 30px;
+        color: var(--verde);
+    }
+}
+
+
+
+

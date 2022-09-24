@@ -1,0 +1,28 @@
+.b-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo);
+
+    .b-footer__list {
+        list-style: none;
+        text-align: center;
+      
+    }
+
+    .b-footer__li {
+        text-decoration: none;
+    }
+
+}
+
+.b-footer__img {
+    width: 180px;
+    height: 35px;
+    margin: 30px;
+}
+
+.b-footer__li:visited {
+    color: black;
+}

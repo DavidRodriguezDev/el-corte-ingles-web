@@ -1,0 +1,82 @@
+
+
+/*PALETA COLORES*/
+
+:root {
+    --blanco: #f5f5f7;
+    --gris: #191919;
+    --verde: #67b500;
+    --fondo: #efefef;
+}
+
+.white {
+    color: var(--blanco);
+}
+
+.green {
+    color: var(--verde);
+}
+
+.grey {
+    color: var(--gris);
+}
+
+/*FUENTES*/
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+} 
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
+}
+  
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+} 
+
+.b-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 5px;
+}
+
+.b-text--regular {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.b-text--light {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: .85rem;
+}
+
+.b-text--bold {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.b-text--white {
+    color:white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 300;
+}
